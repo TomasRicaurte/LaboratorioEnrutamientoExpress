@@ -1,8 +1,8 @@
 const express = require("express");
-const router = express.Router();
+const mediumRouter = express.Router();
 
-router.get("/", function (req, res) {
+mediumRouter.get("/", function (req, res) {
   res.send("Ruta clientes medium");
 });
 
-module.exports = router;
+module.exports = mediumRouter;

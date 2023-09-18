@@ -1,8 +1,8 @@
 const express = require("express");
-const router = express.Router();
+const premiumRouter = express.Router();
 
-router.get("/", function (req, res) {
+premiumRouter.get("/", function (req, res) {
   res.send("Ruta clientes premium");
 });
 
-module.exports = router;
+module.exports = premiumRouter;
